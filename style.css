@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    border-radius: 25px;
+    background: black;
+    width: 35rem;
+    height: 70rem;
+}
+
+#display{
+    border: 1px solid white;
+    height: 25rem;
+}
+
+#row1{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1.5rem 0rem 1.5rem 0rem;
+    //for line above it goes by sequence of - top right bottom left
+}
+
+#key-num{
+    text-align: center;
+    height: 7rem;
+    width: 7rem;
+    color: white;
+    border-radius: 100%;
+    border: 1px solid white;
+    font-size: 5rem;
+}
+
+#key-symbol {
+    background-color: grey;
+    text-align: center;
+    height: 7rem;
+    width: 7rem;
+    color: black;
+    border-radius: 100%;
+    /* border: 1px solid white; */
+    font-size: 5rem;
+}
+
+#key-op {
+    background-color: orange;
+    text-align: center;
+    height: 7rem;
+    width: 7rem;
+    color: black;
+    border-radius: 100%;
+    /* border: 1px solid white; */
+    font-size: 5rem;
+}
+
+#key-num-zero {
+    text-align: center;
+    height: 7rem;
+    width: 15rem;
+    color: white;
+    border-radius: 55px;
+    border: 1px solid white;
+    font-size: 5rem;
+}
