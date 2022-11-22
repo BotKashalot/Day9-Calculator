@@ -19,7 +19,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     margin: 1.5rem 0rem 1.5rem 0rem;
-    //for line above it goes by sequence of - top right bottom left
+    /* for line above it goes by sequence of - top right bottom left */
 }
 
 #key-num{
